@@ -1,0 +1,34 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-hint {
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+.auth-demo-note {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.h2{
+  margin-top: 8px;
+}
+
+.p{
+  margin-bottom: 24px;
+}
+.field-error{
+  margin-bottom: 16px;
+}
+.login-link{
+   color: var(--color-primary);
+}

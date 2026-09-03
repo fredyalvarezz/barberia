@@ -1,0 +1,9 @@
+.Card {
+    max-width: 420px;
+}
+
+.p {
+    color: var(--color-success);
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+}

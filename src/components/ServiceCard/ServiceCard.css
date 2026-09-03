@@ -1,0 +1,29 @@
+.h3{
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-5);
+  min-height: 190px;
+}
+
+.service-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-card-price {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+.service-card-duration {
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+}

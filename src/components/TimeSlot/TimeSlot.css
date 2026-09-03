@@ -1,0 +1,27 @@
+.time-slot {
+  padding: 10px 0;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.time-slot:hover:not(:disabled) {
+  border-color: var(--color-primary);
+}
+
+.time-slot:disabled {
+  opacity: 0.35;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+.time-slot.is-selected {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #121212;
+  font-weight: 600;
+}
