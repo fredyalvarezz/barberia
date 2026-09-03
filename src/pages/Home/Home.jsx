@@ -26,14 +26,15 @@ export default function Home() {
               pensado para que salgas exactamente como lo imaginaste.
             </p>
 
-          
+
           </div>
 
           <div className="hero-image">
             <img
-              src="/images/barberia-hero.webp"
+              src={`${import.meta.env.BASE_URL}images/barberia-hero.webp`}
               alt="Barbería Iwaya"
             />
+
           </div>
         </div>
       </section>
